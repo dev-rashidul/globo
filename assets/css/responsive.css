@@ -11,8 +11,12 @@
 /* Min Width 993px and Max Width 1200px */
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .hero-content {
+    margin-top: 30px;
+  }
+
   .hero-img {
-    max-width: 450px;
+    max-width: 380px;
   }
 
   .hero-title h1 {
@@ -20,8 +24,9 @@
   }
 
   .hero-button a {
-    font-size: 36px;
-    padding: 22px 0 15px;
+    max-width: 350px;
+    font-size: 30px;
+    padding: 18px 0 15px;
   }
 
   .aceasta-title h2,
