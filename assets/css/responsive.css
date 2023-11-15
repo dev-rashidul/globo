@@ -47,6 +47,10 @@
     font-size: 26px;
   }
 
+  .footer-content {
+    padding-left: 50px;
+  }
+
   .footer-logo {
     padding-top: 50px;
   }
