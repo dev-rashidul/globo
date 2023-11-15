@@ -12,11 +12,12 @@
 
 @media (min-width: 993px) and (max-width: 1200px) {
   .hero-content {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: -180px;
   }
 
   .hero-img {
-    max-width: 380px;
+    max-width: 350px;
   }
 
   .hero-title h1 {
@@ -44,6 +45,10 @@
   .despre-author-content h3,
   .testimonial-card h3 {
     font-size: 26px;
+  }
+
+  .footer-logo {
+    padding-top: 50px;
   }
 }
 
@@ -87,6 +92,10 @@
   .despre-author-content h3,
   .testimonial-card h3 {
     font-size: 26px;
+  }
+
+  .footer-logo {
+    padding-top: 50px;
   }
 }
 
