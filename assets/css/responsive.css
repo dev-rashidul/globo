@@ -1,19 +1,164 @@
 /* Min Width 1200px and Max Width 1399px */
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-}
-
-/* Min Width 992px and Max Width 1199px */
-
-@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-img {
+    max-width: 600px;
+    width: 100%;
+    z-index: 2;
+  }
 }
 
 /* Min Width 768px and Max Width 991px */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .hero-container {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content {
+    margin-left: 0;
+  }
+
+  .hero-img {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .hero-title h1 {
+    font-size: 40px;
+  }
+
+  .hero-button a {
+    font-size: 36px;
+  }
+
+  .aceasta-title h2,
+  .despre-carte-content h2,
+  .despre-author-content h2 {
+    font-size: 40px;
+  }
+
+  .name-tag h2 {
+    font-size: 30px;
+  }
+
+  .aceasta-content ul li,
+  .despre-carte-content h3,
+  .despre-author-content h3,
+  .testimonial-card h3 {
+    font-size: 26px;
+  }
 }
 
 /* Min Width 300px and Max Width 767px */
 
 @media (min-width: 300px) and (max-width: 767px) {
+  .header-logo {
+    max-width: 150px;
+    margin: auto;
+  }
+
+  .hero-container,
+  .despre-author-container {
+    flex-direction: column-reverse;
+    padding-top: 50px;
+  }
+
+  .hero-content {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .hero-img {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: -30px;
+  }
+
+  .hero-title h1 {
+    font-size: 34px;
+  }
+
+  .hero-button a {
+    max-width: 300px;
+    font-size: 24px;
+    padding: 15px 0 10px;
+  }
+
+  .aceasta-wrapper {
+    padding: 40px 20px;
+  }
+
+  .aceasta-title h2 {
+    align-items: start;
+  }
+
+  .aceasta-title h2 img {
+    width: 30px;
+  }
+
+  .aceasta-content {
+    padding: 60px 0 0;
+  }
+
+  .aceasta-content ul li img {
+    width: 25px;
+    margin-right: 15px;
+  }
+
+  .despre-carte-wrapper,
+  .despre-author-wrapper,
+  .testimonial-wrapper {
+    padding: 60px 20px;
+  }
+
+  .despre-carte-container,
+  .testimonial-container {
+    padding: 0;
+  }
+
+  .aceasta-title h2,
+  .despre-carte-content h2,
+  .despre-author-content h2 {
+    font-size: 26px;
+  }
+
+  .despre-author-content {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .despre-author-img {
+    max-width: 100%;
+    width: 100%;
+    margin: 50px auto 0;
+  }
+
+  .name-tag h2 {
+    width: 230px;
+    font-size: 24px;
+  }
+
+  .testimonial-card {
+    padding: 20px 0 35px;
+    margin: 50px 0;
+  }
+
+  .testimonial-card h3 {
+    max-width: 90%;
+  }
+
+  .aceasta-content ul li,
+  .despre-carte-content h3,
+  .despre-author-content h3,
+  .testimonial-card h3 {
+    font-size: 22px;
+  }
+
+  .footer-logo {
+    padding-top: 50px;
+  }
 }
