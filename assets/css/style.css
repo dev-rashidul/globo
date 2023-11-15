@@ -1,0 +1,334 @@
+/* Base Style CSS Start */
+
+/* Fonts */
+
+@font-face {
+  font-family: CCUpUpAndAway;
+  src: url(../fonts/CCUpUpAndAway.otf);
+}
+
+@font-face {
+  font-family: adineuePROTT;
+  src: url(../fonts/adineuePROTT-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: adineuePROTT;
+  src: url(../fonts/adineuePROTT-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../fonts/Lora-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../fonts/Lora-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../fonts/Lora-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Lora;
+  src: url(../fonts/Lora-Bold.ttf);
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Style CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  background: url(../images/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.header-logo {
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  padding-top: 80px;
+}
+
+.hero-img {
+  max-width: 750px;
+  width: 100%;
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  margin-top: 50px;
+  margin-left: -200px;
+  width: 100%;
+  z-index: 1;
+}
+
+.hero-title {
+  background: url(../images/hero-content-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title h1 {
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  font-family: Lora;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  padding: 40px 20px;
+  background: radial-gradient(#fbad18 0%, #f6e271 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-button a {
+  background: url(../images/button-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  max-width: 460px;
+  margin: 30px auto 0;
+  font-family: adineuePROTT;
+  font-size: 44px;
+  font-weight: 700;
+  color: #024ea2;
+  text-align: center;
+  padding: 23px 0 15px;
+}
+
+/* Hero Section CSS End */
+
+/* Aceasta Section CSS Start */
+
+.aceasta-wrapper {
+  background: url(../images/aceasta-carte-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0 80px;
+}
+
+.aceasta-title {
+  position: relative;
+  max-width: 685px;
+  margin: auto;
+}
+
+.aceasta-title h2 {
+  display: flex;
+  align-items: center;
+  font-family: Lora;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.aceasta-title h2 img {
+  width: 50px;
+}
+
+.aceasta-content {
+  padding: 100px 10% 0;
+}
+
+.aceasta-content ul li {
+  display: flex;
+  align-items: self-start;
+  font-family: Lora;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 24px;
+}
+
+.aceasta-content ul li img {
+  width: 35px;
+  margin-right: 27px;
+}
+
+/* Aceasta Section CSS End */
+
+/* Despre Carte Section CSS Start */
+
+.despre-carte-wrapper {
+  background: url(../images/despre-carte-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.despre-carte-container {
+  padding: 0 10%;
+}
+
+.despre-carte-content h2 {
+  font-family: Lora;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.despre-carte-content h3 {
+  font-family: Lora;
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+
+.despre-carte-content h3 span {
+  font-weight: 700;
+}
+
+/* Despre Carte Section CSS End */
+
+/* Despre Author Section CSS Start */
+
+.despre-author-wrapper {
+  background: url(../images/despre-author-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.despre-author-container {
+  display: flex;
+  align-items: center;
+  padding: 0 5% 0 2%;
+}
+
+.despre-author-img {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.despre-author-content {
+  max-width: calc(100% - 500px);
+  width: 100%;
+}
+
+.despre-author-content h2 {
+  font-family: Lora;
+  font-size: 48px;
+  font-weight: 700;
+  background: radial-gradient(#fbad18 0%, #f6e271 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.despre-author-content h3 {
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.despre-author-content h3 span {
+  color: #f7db65;
+}
+
+/* Despre Author Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-wrapper {
+  background: url(../images/testimonial-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0 120px;
+}
+
+.testimonial-container {
+  padding: 0 10%;
+}
+
+.testimonial-card {
+  position: relative;
+  border: 2px solid #000;
+  padding: 30px 0 60px;
+  margin: 60px 0;
+}
+
+.testimonial-card h3 {
+  max-width: 75%;
+  margin: auto;
+  font-family: Lora;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.name-tag {
+  position: absolute;
+  left: 50%;
+  bottom: -25px;
+  transform: translate(-50%);
+}
+
+.name-tag h2 {
+  display: block;
+  width: 300px;
+  font-family: Lora;
+  font-size: 36px;
+  text-align: center;
+  background: #000000;
+  color: #ffee14;
+  padding: 5px;
+}
+
+/* Testimonial Section CSS End */
+
+/* Footer Section CSS Start */
+
+.footer-wrapper {
+  background: url(../images/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+/* Footer Section CSS End */
