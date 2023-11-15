@@ -1,10 +1,44 @@
 /* Min Width 1200px and Max Width 1399px */
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1201px) and (max-width: 1399px) {
   .hero-img {
     max-width: 600px;
     width: 100%;
     z-index: 2;
+  }
+}
+
+/* Min Width 993px and Max Width 1200px */
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-img {
+    max-width: 450px;
+  }
+
+  .hero-title h1 {
+    font-size: 40px;
+  }
+
+  .hero-button a {
+    font-size: 36px;
+    padding: 22px 0 15px;
+  }
+
+  .aceasta-title h2,
+  .despre-carte-content h2,
+  .despre-author-content h2 {
+    font-size: 40px;
+  }
+
+  .name-tag h2 {
+    font-size: 30px;
+  }
+
+  .aceasta-content ul li,
+  .despre-carte-content h3,
+  .despre-author-content h3,
+  .testimonial-card h3 {
+    font-size: 26px;
   }
 }
 
